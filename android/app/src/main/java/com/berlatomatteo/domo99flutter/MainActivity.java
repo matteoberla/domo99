@@ -1,4 +1,4 @@
-package com.elettronicamimmo.domo99;
+package com.emmebisviluppo.domo99;
 
 import io.flutter.embedding.android.FlutterActivity;
 
