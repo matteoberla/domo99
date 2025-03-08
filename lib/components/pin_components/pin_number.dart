@@ -1,15 +1,17 @@
+import 'package:domotica_mimmo/styles.dart';
 import 'package:flutter/material.dart';
 
 class PinNumber extends StatelessWidget {
   final TextEditingController textEditingController;
-  final OutlineInputBorder outlineInputBorder;
-  PinNumber(
-      {required this.textEditingController, required this.outlineInputBorder});
+  const PinNumber({
+    key,
+    required this.textEditingController,
+  });
 
   @override
   Widget build(BuildContext context) {
-    bool isDark = MediaQuery.of(context).platformBrightness == Brightness.dark;
     return Container(
+      color: transparent,
       width: 50.0,
       child: TextField(
         controller: textEditingController,
@@ -18,13 +20,16 @@ class PinNumber extends StatelessWidget {
         textAlign: TextAlign.center,
         decoration: InputDecoration(
             contentPadding: EdgeInsets.all(16.0),
-            border: outlineInputBorder,
+            border: OutlineInputBorder(
+              borderRadius: BorderRadius.circular(10.0),
+              borderSide: BorderSide(color: Colors.transparent),
+            ),
             filled: true,
-            fillColor: Colors.white30),
+            fillColor: highlightColor),
         style: TextStyle(
           fontWeight: FontWeight.bold,
           fontSize: 21.0,
-          color: isDark ? Colors.black : Colors.white,
+          color: Colors.black,
         ),
       ),
     );
