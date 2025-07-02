@@ -1,0 +1,2 @@
+/Users/matteo/AndroidStudioProjects/domotica_mimmo1.0/android/app/.cxx/RelWithDebInfo/x1l4o2o1/x86_64/CMakeFiles/edit_cache.dir
+/Users/matteo/AndroidStudioProjects/domotica_mimmo1.0/android/app/.cxx/RelWithDebInfo/x1l4o2o1/x86_64/CMakeFiles/rebuild_cache.dir

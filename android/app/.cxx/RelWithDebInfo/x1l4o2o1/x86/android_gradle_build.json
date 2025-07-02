@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/Users/matteo/Developer/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/matteo/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/matteo/AndroidStudioProjects/domotica_mimmo1.0/android/app/.cxx/RelWithDebInfo/x1l4o2o1/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/matteo/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/matteo/AndroidStudioProjects/domotica_mimmo1.0/android/app/.cxx/RelWithDebInfo/x1l4o2o1/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {},
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/matteo/Library/Android/sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/matteo/Library/Android/sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}
